@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta property="og:type" content="website" />
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500);
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 96px;
+  font-size: 21px;
+  background: #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+section.card {
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  border-radius: 24px 24px 24px 48px;
+  padding: 48px 48px 48px 308px;
+  margin: 84px 0;
+  min-width: 640px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  position: relative;
+  box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+}
+section.card .text-content {
+  display: flex;
+  flex-direction: column;
+  width:calc(60vw - 192px);
+}
+section.card .text-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  max-width: 20ch;
+  color: #fff;
+}
+section.card .text-content p {
+  margin: 25px 0 24px;
+  color: #fff;
+}
+section.card .text-content a {
+  border: 3px solid #f2f2f2;
+  color: #ffffff;
+  align-self: flex-start;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  transition: 400ms all;
+}
+section.card .text-content a:hover {
+  background: #051c5e;
+  color: white;
+}
+section.card .visual {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  top: -24px;
+  left: 24px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+section.card .visual img {
+  height: 110%;
+}
+article {
+  margin: auto;
+  display: block;
+  width:calc(60vw + 248px);
+  max-width:calc(920px + 248px);
+  min-width:calc(640px + 248px); 
+}
+@media all and (max-width: 1100px) {
+  body {
+    padding: 96px 48px 24px;
+  }
+  article {
+    width: 100%;
+    min-width: 100%;
+  }
+  section.card {
+    min-width: 100%;
+  }
+  section.card .text-content {
+    width: 100%;
+  }
+}
+@media all and (max-width: 720px) {
+  body {
+    padding: 48px 24px 0;
+  }
+  section.card {
+    margin: 64px 0;
+    padding: 88px 36px 36px;
+    flex-direction: column;
+    border-radius: 24px;
+  }
+  section.card .text-content h3 {
+    max-width:calc(100% - 150px);
+    font-size: 1em;
+  }
+  section.card .text-content p,
+  section.card .text-content a {
+    font-size: 0.8em;
+  }
+  section.card .visual {
+    width: 150px;
+    height: 150px;
+    right: 16px;
+    left: auto;
+    border-radius: 50%;
+  }
+  section.card .visual img{
+    width: 100%;
+    height: auto;
+    }
+}
+
+</style>
+
+<body>
+
+  <article>
+    <section class="card">
+      <div class="text-content">
+        <h3>Petal Glow</h3>
+        <p>A blush in the shade of Petal Glow, designed to add a touch of color to the cheeks creating a healthy and natural looking flush. Easy to apply and also enhances your overall complexion and brings a youthful, radiant glow to your face.</p>  
+        <a href="">Buy now</a>
+      </div>
+      <div class="visual">
+        <img src="https://pbs.twimg.com/media/EL4GVitX0AEQyEt.jpg" alt="" />
+      </div>
+    </section> 
+  </article>
+
+  <article>
+    <section class="card">
+      <div class="text-content">
+        <h3>Mascara</h3>
+        <p>
+ a makeup product designed to enhance and define the eyelashes. Our mascara adds volume, length, and curl to the lashes, making the eyes appear more expressive and striking.</p>  
+        <a href="">Buy now </a>
+      </div>
+      <div class="visual">
+        <img src="https://thebodyshop.com.ph/cdn/shop/products/TBS_Natural_Form_Mascara_3_1200x1200.jpg?v=1676424386" alt="" />
+      </div>
+    </section> 
+  </article>
+
+  <article>
+    <section class="card">
+      <div class="text-content">
+        <h3>Eyeliner</h3>
+        <p> 
+ a cosmetic product used to define and enhance the eyes. Eyeliner can create subtle and dramatic looks creating shapes like wings and cat eyes for a striking effect.</p>  
+        <a href="">Buy now</a>
+      </div>
+      <div class="visual">
+        <img src="https://discoverpilgrim.com/cdn/shop/files/Black-Scandal-Eyeliner-Listing-Images-1080x1080-2.jpg?v=1704274487&width=1080" alt="" />
+      </div>
+    </section> 
+  </article>
+
+  <article>
+    <section class="card">
+      <div class="text-content">
+        <h3>Crimson Dream</h3>
+        <p>
+a beautiful shade of lipstick that features a rich, deep red hue with a touch of warmth. It complements various skin tones and adds a bold, sophisticated touch to any look.</p>  
+        <a href="">Buy now</a>
+      </div>
+      <div class="visual">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapRUcJBuWW_Cz_hXu94RaX252fifV8vfNKDcu2OXgPr3x07e9AEMr7E0aUNHWBjXflmc&usqp=CAU" alt="" />
+      </div>
+    </section> 
+  </article>
+
+  <article>
+    <section class="card">
+      <div class="text-content">
+        <h3>Moonlit Mist</h3>
+        <p>
+ an elegant name for an eyeshadow palette shade featuring grey, silver, and shimmers. This sophisticated color adds a touch of ethereal radiance to your eye looks, perfect for both day and night.</p>  
+        <a href="">Buy now</a>
+      </div><div class="visual">
+        <img src="https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-close-up-of-assorted-makeup-products-against-a-black-textured-background-image_13646516.png" alt="" />
+      </div>
+    </section> 
+  </article>
+
+</body>
+</html>
